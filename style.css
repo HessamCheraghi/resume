@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* defaults */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* layout */
+
+body {
+  font-family: "Noto Serif", serif;
+  font-weight: normal;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gainsboro;
+  padding-block: 1in;
+}
+a {
+  text-decoration: none;
+  color: royalblue;
+}
+h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 9pt;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  color: royalblue;
+  margin-bottom: 0.125in;
+}
+.page {
+  /* A4 paper width and height */
+  width: 8.251in;
+  height: 11.69in;
+  padding: 0.5in;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 60fr 40fr;
+  grid-template-rows: min-content;
+  column-gap: 0.25in;
+  row-gap: 0.25in;
+}
+.left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25in;
+}
+
+/* for print only */
+
+@media print {
+  body {
+    padding: 0;
+    background-color: white;
+  }
+  .page {
+    /* A4 width and height minus 0.4 page margin */
+    width: calc(8.251in - 0.8in);
+    height: calc(11.69in - 0.8in);
+    padding: 0;
+  }
+}
+
+/* header */
+
+.summary {
+  margin-bottom: 0.125in;
+}
+.full-name {
+  font-size: 28pt;
+  font-weight: bold;
+}
+.job-title {
+  font-size: 11pt;
+}
+
+/* contact me section */
+
+.contact {
+  font-size: 9pt;
+  font-style: normal;
+}
+.contact dl {
+  display: flex;
+  flex-direction: column;
+  gap: 0.0625in;
+}
+.contact div {
+  display: flex;
+  gap: 0.0625in;
+}
+.contact dt {
+  font-weight: bold;
+}
+.contact dt::after {
+  content: ":";
+}
+.contact dd {
+  font-weight: normal;
+}
+
+/* skills */
+
+.skills {
+  font-size: 10pt;
+  margin-bottom: 0.0625in;
+}
+.skills dl {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125in;
+}
+.skills div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.0625in;
+}
+.skills dt {
+  font-weight: bold;
+  font-style: normal;
+}
+.skills dt::after {
+  content: ":";
+}
+.skills dd {
+  font-weight: normal;
+  padding-inline-start: 0.125in;
+  font-style: italic;
+}
+
+/* projects */
