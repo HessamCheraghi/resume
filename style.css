@@ -136,3 +136,36 @@ h2 {
   color: #555;
   text-align: justify;
 }
+
+/* education */
+.education article {
+  margin-bottom: 0.125in;
+  display: flex;
+  flex-direction: column;
+  gap: 0.0625in;
+}
+.education .school-name {
+  font-weight: bold;
+}
+.education .school-name::after {
+  content: ", ";
+  font-weight: bold;
+}
+.education .location::after {
+  content: " — ";
+}
+.education .degree {
+  font-style: italic;
+}
+.education .duration {
+  font-size: 8pt;
+  color: #555;
+  text-transform: uppercase;
+}
+.education .duration .from::after {
+  content: " - ";
+}
+.education .description {
+  color: #555;
+  text-align: justify;
+}
