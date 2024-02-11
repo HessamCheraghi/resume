@@ -19,6 +19,7 @@ body {
   justify-content: center;
   background-color: gainsboro;
   padding-block: 1in;
+  font-size: 9pt;
 }
 a {
   text-decoration: none;
@@ -59,9 +60,9 @@ h2 {
     background-color: white;
   }
   .page {
-    /* A4 width and height minus 0.4 page margin */
-    width: calc(8.251in - 0.8in);
-    height: calc(11.69in - 0.8in);
+    /* A4 width and height minus 0.5 browser page margin */
+    width: calc(8.251in - 1in);
+    height: calc(11.69in - 1in);
     padding: 0;
   }
 }
@@ -71,16 +72,15 @@ h2 {
 .summary {
   margin-bottom: 0.125in;
 }
-.full-name {
+.summary .full-name {
   font-size: 28pt;
   font-weight: bold;
 }
-.job-title {
+.summary .job-title {
   font-size: 11pt;
 }
 
-/* contact me section */
-
+/* contact me */
 .contact {
   font-size: 9pt;
   font-style: normal;
@@ -104,33 +104,35 @@ h2 {
   font-weight: normal;
 }
 
-/* skills */
-
-.skills {
-  font-size: 10pt;
-  margin-bottom: 0.0625in;
-}
-.skills dl {
-  display: flex;
-  flex-direction: column;
-  gap: 0.125in;
-}
-.skills div {
+/* experience */
+.experience article {
+  margin-bottom: 0.25in;
   display: flex;
   flex-direction: column;
   gap: 0.0625in;
 }
-.skills dt {
+.experience .company {
   font-weight: bold;
-  font-style: normal;
 }
-.skills dt::after {
-  content: ":";
+.experience .company::after {
+  content: ", ";
+  font-weight: bold;
 }
-.skills dd {
-  font-weight: normal;
-  padding-inline-start: 0.125in;
+.experience .location::after {
+  content: " — ";
+}
+.experience .job-title {
   font-style: italic;
 }
-
-/* projects */
+.experience .duration {
+  font-size: 8pt;
+  color: #555;
+  text-transform: uppercase;
+}
+.experience .duration .from::after {
+  content: " - ";
+}
+.experience .description {
+  color: #555;
+  text-align: justify;
+}
