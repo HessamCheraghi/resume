@@ -116,7 +116,7 @@ h2 {
 
 /* experience */
 .experience article {
-  margin-bottom: 0.25in;
+  margin-bottom: 0.125in;
   display: flex;
   flex-direction: column;
   gap: 0.0625in;
@@ -145,6 +145,7 @@ h2 {
   color: #555;
   text-align: justify;
   text-indent: 2ch;
+  font-size: 8pt;
 }
 
 /* education */
@@ -181,7 +182,7 @@ h2 {
 
 /* projects */
 .projects article {
-  margin-bottom: 0.325in;
+  margin-bottom: 0.125in;
   display: flex;
   flex-direction: column;
   gap: 0.0625in;
@@ -193,6 +194,7 @@ h2 {
   color: #555;
   text-align: justify;
   text-indent: 2ch;
+  font-size: 8pt;
 }
 .projects .stack {
   columns: 2;

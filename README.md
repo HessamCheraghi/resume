@@ -1,6 +1,6 @@
 # Hessam A. Cheraghi
 
-I am a Front-End Engineer with 2 years of experience in developing websites and applications. My experience comes from a blend of technical and soft skills providing problem-solving and effective communication with the team, allowing me to help with any project.
+Passionate Front-End Engineer with 2 years of experience building user-friendly interfaces and scalable applications. Proven ability to collaborate, solve problems, and deliver high-quality code. Seeking a challenging role to contribute to an innovative team.
 
 ## Contact Details
 
@@ -14,13 +14,13 @@ I am a Front-End Engineer with 2 years of experience in developing websites and 
 
   `JUNE 2022 - PRESENT`
 
-  As a Front End Developer, I was in charge of the development and management of our company's front-end dashboard, creating an intuitive and user-friendly interface which significantly increased our customer satisfaction. Additionally, I mentored junior developers to encourage a culture of continuous learning within the team.
+  As a Front End Developer, I was in charge of the development of our company's front-end dashboard, I used Next.js as the main framework and tailwind for styling the app. my main challenge in this role was to visualize various types of data. To address this, I integrated the chart.js library, which enabled the creation of responsive, customizable charts
 
 - Mohaymen ICT Company, Tehran Province, Iran - Front-End Intern
 
   `JULY 2021 - AUGUST 2021`
 
-  During my internship, I supported the QA team in testing and documentation to enhance the software's reliability. My proactive approach and diligence earned me positive feedback from mentors.
+  During my internship, I supported the QA team in testing and documentation to enhance the software's reliability. we used cypress for e2e testing and jsdoc for documenting the code.
 
 ## Education
 
@@ -36,7 +36,7 @@ I am a Front-End Engineer with 2 years of experience in developing websites and 
 
 - Ceramic Factory Dashboard
 
-  This dashboard offers a user-friendly interface designed to streamline operational oversight. It integrates real-time data and comprehensive analytics, enabling managers to monitor production metrics, track inventory, and identify efficiency improvements.
+  This dashboard offers a user-friendly interface designed to offer a centralized interface where factory administrator can monitor production metrics, track inventory, manage orders, and ensure quality control. in this project I mastered Typescript to manage large application logic and Chart.js to visualize data, also I used tailwind to create a responsive and mobile first UI.
 
   the project stack:
 
@@ -49,7 +49,7 @@ I am a Front-End Engineer with 2 years of experience in developing websites and 
 
 - Reasamiot Landing Page
 
-  The company's landing page which showcases key features of their products, and their vision for the company and a way to contact them.
+  The company's landing page, which showcases their products, required fast load times to enhance user experience and improve SEO rankings. To overcome this challenge, I leveraged Next.js's SSR capabilities. By pre-rendering the page on the server, I was able to reduce the initial load time by 30%, ensuring that users received a fully rendered page upon their first visit.
 
   the project stack:
 
@@ -60,21 +60,38 @@ I am a Front-End Engineer with 2 years of experience in developing websites and 
 
 ## Technical Skills
 
-- Primary tools:
+- Programming Languages:
 
-  - React
   - Typescript
-  - Next.js
-
-- Experienced In:
-
-  - HTML
+  - Python
   - JavaScript
-  - SASS
-  - Git
-  - CSS
-  - Figma
+
+- React Frameworks
+
+  - Next.js
+  - Astro
+
+- React Tools
+
+  - React Router
+  - React Flow
+  - Redux
+  - React Query
+  - Zustand
+  - React Hook Form
+
+- CSS Tools
+
   - Tailwind
+  - Material UI
+  - Styled Components
+  - SASS
+
+- Other Tools
+
+  - D3.js
+  - Git
+  - Chart.js
   - Docker
 
 ## Personality Highlights
