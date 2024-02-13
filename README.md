@@ -1,6 +1,6 @@
 # Hessam A. Cheraghi
 
-Passionate Front-End Engineer with 2 years of experience building user-friendly interfaces and scalable applications. Proven ability to collaborate, solve problems, and deliver high-quality code. Seeking a challenging role to contribute to an innovative team.
+As a Front-End Engineer with 2+ years of experience, I specialize in creating responsive websites and applications with a focus on user experience and design. Leveraging Typescript,Next.js and React, I blend technical skill with creativity to deliver intuitive solutions. My collaborative approach and problem-solving skills enable me to contribute effectively to team projects.
 
 ## Contact Details
 
@@ -106,7 +106,7 @@ Passionate Front-End Engineer with 2 years of experience building user-friendly 
 ## Languages
 
 - Persian: `native`
-- English: `fluent`
+- English: `C1 level proficiency`
 
 ## References
 
