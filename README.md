@@ -1,6 +1,6 @@
 # Hessam A. Cheraghi
 
-As a Front-End Engineer with 2+ years of experience, I specialize in creating responsive websites and applications with a focus on user experience and design. Leveraging Typescript,Next.js and React, I blend technical skill with creativity to deliver intuitive solutions. My collaborative approach and problem-solving skills enable me to contribute effectively to team projects.
+As a Front-End Engineer with 2+ years of experience, I specialize in creating responsive websites and applications with a focus on user experience and design. Leveraging React, Typescript and Next.js, I blend technical skill with creativity to deliver intuitive solutions. My collaborative approach and problem-solving skills enable me to contribute effectively to team projects.
 
 ## Contact Details
 
@@ -57,6 +57,8 @@ As a Front-End Engineer with 2+ years of experience, I specialize in creating re
   - React
   - Typescript
   - Tailwind
+
+  [To See The Project Click Here](https://rasamiot.com/)
 
 ## Technical Skills
 

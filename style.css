@@ -86,8 +86,9 @@ h2 {
   margin-bottom: 0.125in;
 }
 .summary .job-title {
-  font-size: 9pt;
   text-align: justify;
+  font-size: 9pt;
+  text-indent: 2ch;
 }
 
 /* contact */
