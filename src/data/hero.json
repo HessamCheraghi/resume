@@ -1,7 +1,21 @@
 {
   "fullName": "Hessam A. Cheraghi",
   "title": "Front-End Developer",
-  "summary": "Passionate Front-End developer, with 2+ years of experience, and a background in creating responsive applications and websites that emphasizes animations, data visualizations, and user experience",
+  "summary": "Passionate Front-End developer, with 2+ years of experience creating responsive applications and websites using React, Typescript and Next.js. Specialties include: ensuring excellent user experience, well-versed in data visualizations, and crafting stunning animations",
+
+  "ideas": [
+    "Proactive and highly motivated professional seeking an Office manager role.",
+    "Exceptional Organizational and communication skills.",
+    "Well-versed in Microsoft/Google suites, scheduling, and time management.",
+    "Proactive and solution-oriented Office Manager with 10+ years of experience keeping corporate offices running smoothly.",
+    "Specialties include: managing daily operations, time management welcome and onboarding, errand running, scheduling, etc.",
+    "Ambitious producer with 4+ years of experience in agency and studio production",
+    "Specialties include: managing talent/crew, securing locations, managing budgets, coordinating creatives and vendors, and maintaining smooth production workflow.",
+    "Dedicated and poised manager with 3+ years of experience ensuring client satisfaction.",
+    "Specialties include: developing budgets, tracking business expenses, organizing back offices, etc. maintaining brand guidelines, meeting deadline, leading teams.",
+    "Enthusiastically submitting my application at 8:24 to your company!"
+  ],
+  "formula": "Adjective + Job Title + Years of experience + switching ? with a background in ___ : null + Specialties include: + keyword vomit",
   "socialMedia": [
     {
       "title": "Linkedin",
@@ -24,7 +38,7 @@
     {
       "title": "Phone Number",
       "link": "tel:+98-917-494-4275",
-      "label": "0917 494 4275",
+      "label": "+98 917 494 4275",
       "icon": "/resume/icons/call.svg"
     }
   ]
