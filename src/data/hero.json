@@ -1,0 +1,31 @@
+{
+  "fullName": "Hessam A. Cheraghi",
+  "title": "Front-End Developer",
+  "summary": "Passionate Front-End developer, with 2+ years of experience, and a background in creating responsive applications and websites that emphasize user experience, data visualizations, and design",
+  "socialMedia": [
+    {
+      "title": "Linkedin",
+      "link": "https://www.linkedin.com/in/hessam-cheraghi/",
+      "label": "linkedin.com/in/hessam-cheraghi",
+      "icon": "/icons/logo-linkedin.svg"
+    },
+    {
+      "title": "Github",
+      "link": "https://github.com/HessamCheraghi",
+      "label": "github.com/HessamCheraghi",
+      "icon": "/icons/logo-github.svg"
+    },
+    {
+      "title": "Email",
+      "link": "mailto:hessam.ch.rose@gmail.com",
+      "label": "hessam.ch.rose@gmail.com",
+      "icon": "/icons/at-circle.svg"
+    },
+    {
+      "title": "Phone Number",
+      "link": "tel:+98-917-494-4275",
+      "label": "0917 494 4275",
+      "icon": "/icons/call.svg"
+    }
+  ]
+}

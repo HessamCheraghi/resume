@@ -1,0 +1,28 @@
+---
+import expData from "../data/experience.json";
+---
+
+<section
+  id="experience"
+  class="mb-4 flex flex-col border-b border-stone-800 pb-4"
+>
+  <h2 class="mb-1 font-bold uppercase text-stone-500">
+    professional experience
+  </h2>
+
+  <div class="flex flex-col gap-2">
+    {
+      expData.map((e) => (
+        <div class="flex flex-col gap-1">
+          <p class="flex gap-1">
+            <span class="font-bold">{e.jobTitle},</span>
+            <span class="italic">{e.companyName}</span>
+            <span class="">({e.employmentStatus})</span>
+            <span class="ml-auto">{e.duration}</span>
+          </p>
+          <p class="indent-2 text-sm">{e.summary}</p>
+        </div>
+      ))
+    }
+  </div>
+</section>

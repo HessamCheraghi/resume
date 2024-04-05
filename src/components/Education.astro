@@ -1,0 +1,23 @@
+---
+import edData from "../data/education.json";
+---
+
+<section
+  id="education"
+  class="mb-4 flex flex-col border-b border-stone-800 pb-4"
+>
+  <h2 class="mb-1 font-bold uppercase text-stone-500">Education</h2>
+
+  <div class="flex flex-col gap-2">
+    {
+      edData.map((e) => (
+        <p class="flex gap-1">
+          <span class="font-bold">{e.major},</span>
+          <span class="italic">{e.schoolName}</span>
+          <span class="">({e.degree})</span>
+          <span class="ml-auto">{e.duration}</span>
+        </p>
+      ))
+    }
+  </div>
+</section>

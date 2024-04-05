@@ -1,0 +1,54 @@
+---
+
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Hessam Cheraghi's Online Resume" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Resume | Hessam A. Cheraghi</title>
+  </head>
+  <body
+    class="flex items-center justify-center bg-stone-100 py-16 text-base text-stone-800 print:bg-white print:p-0"
+  >
+    <div
+      class="h-[11.69in] w-[8.251in] rounded border bg-white p-16 print:h-[10.69in] print:w-[7.251in] print:border-none print:p-8"
+    >
+      <slot />
+    </div>
+  </body>
+</html>
+
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+</style>
+
+<script>
+  console.log(
+    "%c" +
+      `
+█▀▄▀█ ▄▀█ █▀▄ █▀▀   █▄▄ █▄█ ▀
+█░▀░█ █▀█ █▄▀ ██▄   █▄█ ░█░ ▄
+
+` +
+      `
+██╗░░██╗███████╗░██████╗░██████╗░█████╗░███╗░░░███╗
+██║░░██║██╔════╝██╔════╝██╔════╝██╔══██╗████╗░████║
+███████║█████╗░░╚█████╗░╚█████╗░███████║██╔████╔██║
+██╔══██║██╔══╝░░░╚═══██╗░╚═══██╗██╔══██║██║╚██╔╝██║
+██║░░██║███████╗██████╔╝██████╔╝██║░░██║██║░╚═╝░██║
+╚═╝░░╚═╝╚══════╝╚═════╝░╚═════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝
+
+░█████╗░██╗░░██╗███████╗██████╗░░█████╗░░██████╗░██╗░░██╗██╗
+██╔══██╗██║░░██║██╔════╝██╔══██╗██╔══██╗██╔════╝░██║░░██║██║
+██║░░╚═╝███████║█████╗░░██████╔╝███████║██║░░██╗░███████║██║
+██║░░██╗██╔══██║██╔══╝░░██╔══██╗██╔══██║██║░░╚██╗██╔══██║██║
+╚█████╔╝██║░░██║███████╗██║░░██║██║░░██║╚██████╔╝██║░░██║██║
+░╚════╝░╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝╚═╝░░╚═╝░╚═════╝░╚═╝░░╚═╝╚═╝`,
+    "color: #78dce8;",
+  );
+</script>

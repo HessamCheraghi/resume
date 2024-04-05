@@ -1,0 +1,34 @@
+[
+  {
+    "category": "React",
+    "subCategory": []
+  },
+  {
+    "category": "TypeScript",
+    "subCategory": []
+  },
+  {
+    "category": "Next.js",
+    "subCategory": []
+  },
+  {
+    "category": "Tailwind",
+    "subCategory": []
+  },
+  {
+    "category": "UI frameworks",
+    "subCategory": ["MUI", "Shadcn/UI", "Radix-UI", "Mantine"]
+  },
+  {
+    "category": "Testing Tools",
+    "subCategory": ["Cypress", "Vitest", "MSW", "React testing library"]
+  },
+  {
+    "category": "Data Visualization",
+    "subCategory": ["Chart.js", "Recharts", "D3.js", "observable/plot"]
+  },
+  {
+    "category": "Animation Libraries",
+    "subCategory": ["framer motion", "GSAP"]
+  }
+]

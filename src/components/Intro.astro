@@ -1,0 +1,25 @@
+---
+import heroData from "../data/hero.json";
+---
+
+<section id="intro" class="mb-4 flex flex-col border-b border-stone-800 pb-4">
+  <h1 class="font-serif text-xl font-bold">{heroData.fullName}</h1>
+  <p class="mb-2 text-lg">{heroData.title}</p>
+  <ul class="grid grid-cols-2 gap-2">
+    {
+      heroData.socialMedia.map((s) => (
+        <li class="flex items-center gap-1">
+          <img src={s.icon} alt={s.title} class="size-4" />
+          <a
+            href={s.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-stone-700"
+          >
+            {s.label}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</section>
