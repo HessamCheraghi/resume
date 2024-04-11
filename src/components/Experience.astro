@@ -1,28 +1,61 @@
 ---
-import expData from "../data/experience.json";
+import Section from "./ui/Section.astro";
 ---
 
-<section
-  id="experience"
-  class="mb-4 flex flex-col border-b border-stone-800 pb-4"
->
-  <h2 class="mb-1 font-bold uppercase text-stone-500">
-    professional experience
-  </h2>
-
+<Section title="professional experience">
   <div class="flex flex-col gap-2">
-    {
-      expData.map((e) => (
-        <div class="flex flex-col gap-1">
-          <p class="flex gap-1">
-            <span class="font-bold">{e.jobTitle},</span>
-            <span class="italic">{e.companyName}</span>
-            <span class="">({e.employmentStatus})</span>
-            <span class="ml-auto">{e.duration}</span>
-          </p>
-          <p class="indent-2 text-sm">{e.summary}</p>
-        </div>
-      ))
-    }
+    <div class="flex flex-col gap-1">
+      <p class="flex gap-1">
+        <strong class="font-bold">Front-End Developer,</strong>
+        <a
+          class="italic text-blue-600 underline underline-offset-2"
+          href="https://rasamiot.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Rasamiot
+        </a>
+        <span class="">(Full-time & Remote)</span>
+        <span class="ml-auto">June 2022 - present</span>
+      </p>
+      <ul
+        class="flex list-inside list-disc flex-col gap-1 marker:text-stone-500"
+      >
+        <li>
+          Accountable for the development of the company's front-end dashboard.
+        </li>
+        <li>
+          Utilized <strong>React</strong> and <strong>Typescript</strong> as the
+          primary tools for development.
+        </li>
+        <li>
+          Used <strong>Tailwind</strong> as the main styling tool for applications.
+        </li>
+      </ul>
+    </div>
+    <div class="flex flex-col gap-1">
+      <p class="flex gap-1">
+        <strong class="font-bold">Front-End Intern,</strong>
+        <a
+          class="italic text-blue-600 underline underline-offset-2"
+          href="https://mohaymen.ir/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Mohaymen ICT Company
+        </a>
+        <span class="">(Internship)</span>
+        <span class="ml-auto">July 2021 - August 2021</span>
+      </p>
+      <ul
+        class="flex list-inside list-disc flex-col gap-1 marker:text-stone-500"
+      >
+        <li>Utilized <strong>Cypress</strong> for end-to-end testing.</li>
+        <li>
+          First team to reach <strong>80% code coverage</strong> in competition.
+        </li>
+        <li>Supported the QA team in testing and documentation processes.</li>
+      </ul>
+    </div>
   </div>
-</section>
+</Section>

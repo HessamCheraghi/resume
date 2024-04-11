@@ -1,22 +1,50 @@
 ---
-import heroData from "../data/hero.json";
+const socialMedia = [
+  {
+    title: "Linkedin",
+    link: "https://www.linkedin.com/in/hessam-cheraghi/",
+    label: "linkedin.com/in/hessam-cheraghi",
+    icon: "/resume/icons/logo-linkedin.svg",
+  },
+  {
+    title: "Github",
+    link: "https://github.com/HessamCheraghi",
+    label: "github.com/HessamCheraghi",
+    icon: "/resume/icons/logo-github.svg",
+  },
+  {
+    title: "Email",
+    link: "mailto:hessam.ch.rose@gmail.com",
+    label: "hessam.ch.rose@gmail.com",
+    icon: "/resume/icons/at-circle.svg",
+  },
+  {
+    title: "Phone Number",
+    link: "tel:+98-917-494-4275",
+    label: "+98 917 494 4275",
+    icon: "/resume/icons/call.svg",
+  },
+];
 ---
 
-<section id="intro" class="mb-4 flex flex-col border-b border-stone-800 pb-4">
-  <h1 class="font-serif text-xl font-bold">{heroData.fullName}</h1>
-  <p class="mb-2 text-lg">{heroData.title}</p>
+<section
+  id="intro"
+  class="flex flex-col gap-2 border-b border-neutral-800 pb-4"
+>
+  <h1 class="font-serif text-xl font-bold">Hessam A. Cheraghi</h1>
+  <p class="text-lg">Front-End Engineer</p>
   <ul class="grid grid-cols-2 gap-2">
     {
-      heroData.socialMedia.map((s) => (
+      socialMedia.map((social) => (
         <li class="flex items-center gap-1">
-          <img src={s.icon} alt={s.title} class="size-4" />
+          <img src={social.icon} alt={social.title} class="size-4" />
           <a
-            href={s.link}
+            href={social.link}
             target="_blank"
             rel="noopener noreferrer"
-            class="text-stone-700"
+            class="text-blue-600 underline underline-offset-2"
           >
-            {s.label}
+            {social.label}
           </a>
         </li>
       ))
