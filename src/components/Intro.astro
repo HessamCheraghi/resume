@@ -21,28 +21,25 @@ const socialMedia = [
   {
     title: "Phone Number",
     link: "tel:+98-917-494-4275",
-    label: "+98 917 494 4275",
+    label: "0917 494 4275",
     icon: "/resume/icons/call.svg",
   },
 ];
 ---
 
-<section
-  id="intro"
-  class="flex flex-col gap-2 border-b border-neutral-800 pb-4"
->
-  <h1 class="font-serif text-xl font-bold">Hessam A. Cheraghi</h1>
+<section id="intro" class="flex flex-col gap-2 pb-4">
+  <h1 class="font-serif text-xl font-bold tracking-wide">Hessam A. Cheraghi</h1>
   <p class="text-lg">Front-End Engineer</p>
-  <ul class="grid grid-cols-2 gap-2">
+  <ul class="flex justify-between gap-1">
     {
       socialMedia.map((social) => (
-        <li class="flex items-center gap-1">
-          <img src={social.icon} alt={social.title} class="size-4" />
+        <li class="flex items-center">
+          <img src={social.icon} alt={social.title} class="size-3" />
           <a
             href={social.link}
             target="_blank"
             rel="noopener noreferrer"
-            class="text-blue-600 underline underline-offset-2"
+            class="text-sm text-blue-600 underline underline-offset-2"
           >
             {social.label}
           </a>

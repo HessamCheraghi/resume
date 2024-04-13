@@ -5,10 +5,9 @@ interface Props {
 const { title } = Astro.props;
 ---
 
-<section
-  id={title}
-  class="flex flex-col gap-2 border-b border-neutral-500 pb-4 pt-2 last-of-type:border-none"
->
-  <h2 class="font-bold uppercase text-neutral-500">{title}</h2>
+<section id={title} class="flex flex-col gap-1 pb-4 pt-1">
+  <h2 class="border-b border-neutral-500 font-bold uppercase text-neutral-500">
+    {title}
+  </h2>
   <slot />
 </section>
