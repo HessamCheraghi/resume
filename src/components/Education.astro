@@ -4,9 +4,8 @@ import Section from "./ui/Section.astro";
 const education = [
   {
     schoolName: "Shiraz University",
-    major: "Engineering Student",
-    degree: "Bachelor Degree",
-    duration: "September 2019 - July 2024",
+    major: "B.C. Computer Science & Engineering",
+    duration: "September 2019 - September 2024",
   },
 ];
 ---
@@ -18,7 +17,6 @@ const education = [
         <p class="flex gap-1">
           <span class="font-bold">{e.major},</span>
           <span class="italic">{e.schoolName}</span>
-          <span class="">({e.degree})</span>
           <span class="ml-auto">{e.duration}</span>
         </p>
       ))
