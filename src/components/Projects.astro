@@ -1,4 +1,5 @@
 ---
+import Config from "../../astro.config.mjs";
 import Section from "./ui/Section.astro";
 
 const projects = [
@@ -23,7 +24,7 @@ const projects = [
           >
             <span class="font-bold">{p.projectName}</span>
             <img
-              src="/resume-old-v2/icons/open-in-new-tab.svg"
+              src={`/${Config.base}/icons/open-in-new-tab.svg`}
               alt="open in new tab"
               class="size-2"
             />
