@@ -1,13 +1,15 @@
 ---
+import { toTitleCase, toLowerCase } from "../../utils/text";
+
 interface Props {
   title: string;
 }
 const { title } = Astro.props;
 ---
 
-<section id={title} class="flex flex-col gap-4 pb-4 pt-1">
+<section id={toLowerCase(title)} class="flex flex-col gap-2 py-2">
   <h2 class="border-b border-neutral-500 font-bold uppercase text-neutral-500">
-    {title}
+    {toTitleCase(title)}
   </h2>
   <slot />
 </section>

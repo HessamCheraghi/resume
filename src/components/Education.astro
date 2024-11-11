@@ -3,23 +3,28 @@ import Section from "./ui/Section.astro";
 
 const education = [
   {
+    schoolName: "Islamic Azad University",
+    major: "M.Sc. in Computer Science & Engineering",
+    duration: "September 2024 - Present",
+  },
+  {
     schoolName: "Shiraz University",
-    major: "B.C. Computer Science & Engineering",
+    major: "B.Sc. in Computer Science & Engineering",
     duration: "September 2019 - July 2024",
   },
 ];
 ---
 
 <Section title="education">
-  <div class="flex flex-col gap-2">
+  <ul class="flex flex-col gap-3">
     {
       education.map((e) => (
-        <p class="flex gap-1">
+        <li class="flex gap-1 before:text-lg before:font-bold before:text-stone-500 before:content-['&bull;'] before:mr-1">
           <span class="font-bold">{e.major},</span>
           <span class="italic">{e.schoolName}</span>
           <span class="ml-auto">{e.duration}</span>
-        </p>
+        </li>
       ))
     }
-  </div>
+  </ul>
 </Section>
